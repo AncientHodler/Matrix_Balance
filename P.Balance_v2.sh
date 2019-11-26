@@ -109,8 +109,6 @@ MAN98=''
 MAN99=''
 MAN100=''
 
-#ADD=$(sudo docker exec -i c01 bash -c '/matrix/gman attach /matrix/chaindata/gman.ipc -exec man.getBalance\(\"'${!ADR}'\"\)' | grep -m 1 balance | cut -d" " -f6 | sed 's|e.*||' | sed 's|[^0-9]||' | sed 's|.\{18\}$|.&|')
-
 B1='Balances.big'
 B2='Balances.small'
 B3='Stake.big'

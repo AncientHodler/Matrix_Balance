@@ -12,7 +12,8 @@ C)What you need to add to the script in order to make it actually work
 C1)Fill in the addresses.
   --MAN0 is the draining address used in the Drainer script. As such, the script will only read Free MAN values from it.
     If address MAN0 has staked MAN, it wont read it.
-    Fill the MAN0 address on line 9
+    Fill the MAN0 address on line 9; If you leave it empty, the PythonAdder will return an error
+    If you dont have a draining address, you need to use an empty address for MAN0.
   --Addresses from 1 to 100 are the Miner addresses. From these addresses both staked MAN and free MAN will be read.
     Fill the Miner addresses from line 11 to 110.
 C2)Specify their number, variable CL_NO, line 5
